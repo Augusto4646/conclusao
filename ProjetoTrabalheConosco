@@ -1,1 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
 
+    <title>Formulário de Trabalhe Conosco</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+            .centrado{
+                 position:absolute;
+                 top: 5%;
+                 left:48%;
+                 transform: translate(-50%, -50%);
+              }
+
+              .centrado2{
+                 position:absolute;
+                 top: 60%;
+                 left:65%;
+                 transform: translate(-50%, -50%);
+              }
+
+              .baixo{
+                 position:absolute;
+                 bottom:75%;
+                 top: 25%;
+                 transform: translate(-50%, -50%);
+                 left:36%;
+                 width:28%;
+                 }
+
+                 .direita{
+                 position:absolute;
+                 top: 25%;
+                 right:10%;
+                 transform: translate(-50%, -50%);
+                 }
+
+                 .esquerda{
+                position:absolute;
+                 top: 25%;
+                 left:15%;
+                 transform: translate(-50%, -50%);
+                }
+                body{background-color: whitesmoke;}
+    </style>
+</head>
+<body>
+<div class="jumbotron jumbotron-fluid bg-secondary"style="height: 50px;"><h1 class="centrado baixo"style="top: 53px; left: 650px; bottom: 500px">Trabalhe conosco</h1></div>
+<video  autoplay loop muted  class="centrado2 height:-70px"><source src="\videos\VideoPadaria.mp4"></video>
+
+<div class="container-fluid baixo esquerda"style="color:black margin: 10px;">
+        <form action="http://localhost:8080/FormularioEnviado.php" method="post" class="row row-cols-sm-auto g-3 align-items-center">    
+
+            <div style="width: 1000px">
+                <label for="nome" class="control-label">Nome:</label>
+                <input type="text" name="Nome" class="form-control" id="nome">
+            </div>
+        
+            <br>
+        
+            <div style="width: 1000px">
+                <label for="Sobrenome" class="control-label">Sobrenome:</label>
+                <input type="text" name="Sobrenome" class="form-control" id="Sobrenome">
+            </div>
+
+            <br>
+         
+            <div style="width: 1000px">
+                <label for="contato" class="control-label">Contato:</label>
+                <input type="text" name="contato" class="form-control" id="contato">
+            </div>
+            
+            <div style="width: 1000px">
+                <label for="Curriculo" class="control-label">Curriculo:</label>
+                <input type="file" name="Curriculo" class="form-control" id="Curriculo">
+            </div>
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <button type="submit" style="width: 350px"class="btn btn-primary">Enviar</button>
+        </form>
+    </div>
+
+</body>
