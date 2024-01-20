@@ -13,7 +13,7 @@
                background-size: 1290px;
                 position: relative;
                  height: 100vh; 
-                 margin-top: 8px;
+                 margin-top: 25px;
               }
 
               .centrado{
@@ -66,21 +66,14 @@
                  transform: translate(-50%, -50%);
                  }
 
-                 .navbar-custom {
-                  background-color: #EAD9C0;
-                   } 
+                 .navbar-custom {background-color: #EAD9C0;} 
                    
+                  .button-custom {color: #E8D1BC;border: 2px solid #FFDDBB} 
 
-                  .button-custom {
-                  color: #E8D1BC;
-                  border: 2px solid #FFDDBB
-                  
-                  } 
-                  .nav-item:link, .nav-item:visited, .nav-item:hover, .nav-item:active {
-    color: #000000;  
-    text-decoration: none;  
-}
-                body {background-color: #FAEACB;}
+                  .nav-item:link, .nav-item:visited, .nav-item:hover, .nav-item:active {color: #000000;text-decoration: none;  }
+
+                  body {background-color: #FAEACB;}
+
 </style>
 
 </head>
@@ -98,19 +91,19 @@
   </button>
 
   <div class="navbar-nav mr-auto">
-  <a class="btn btn-outline button-custom navbar-custom nav-item" style="width:90px"href="http://localhost:8080/TrabalheConosco.php" role="button">Trabalhe conosco</a>
+  <a class="btn btn-outline navbar-custom nav-item" style="width:90px"href="http://localhost:8080/TrabalheConosco.php" role="button">Trabalhe conosco</a>
   </div>
 
   <div class="navbar-nav mr-auto">
-  <a class="btn btn-outline button-custom direita-Produtos navbar-custom nav-item" href="http://localhost:8080/Produtos.php" role="button">Produtos</a>
+  <a class="btn btn-outline direita-Produtos navbar-custom nav-item" href="http://localhost:8080/Produtos.php" role="button">Produtos</a>
   </div>
 
   <div class="navbar-nav mr-auto">
-  <a class="btn btn-outline button-custom direita-Sobre nav-item" href="http://localhost:8080/Sobre.php" role="button">Sobre nos</a>
+  <a class="btn btn-outline direita-Sobre nav-item" href="http://localhost:8080/Sobre.php" role="button">Sobre nos</a>
   </div>
 
   <div class="navbar-nav mr-auto">
-  <a class="btn btn-outline button-custom direita-Executivo nav-item" href="http://localhost:8080/Executivo.php" role="button">Executivo</a>
+  <a class="btn btn-outline direita-Executivo nav-item" href="http://localhost:8080/Executivo.php" role="button">Executivo</a>
   </div>
 
 </nav>
@@ -125,11 +118,7 @@
    <img src="IBAGENS/Logo4.PNG" class="img-fluid" style="width:140px;" alt="Pagina-inicial">
    <p class="lead Dimensionamento-BoasVindas" style="color: #FFFFFF; font-size: 35px; top:85%; bottom: 60px; left: 120px;">Bem vindo!</p>
  </div>
-
-
-
-
-
+ 
 <br>
 
 <div>

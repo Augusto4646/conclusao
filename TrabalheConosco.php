@@ -9,15 +9,13 @@
                  position:absolute;
                  top: 5%;
                  left:48%;
-                 transform: translate(-50%, -50%);
-              }
+                 transform: translate(-50%, -50%);}
 
               .centrado2{
                  position:absolute;
                  top: 105%;
                  left:90%;
-                 transform: translate(-50%, -50%);
-              }
+                 transform: translate(-50%, -50%);}
 
               .baixo{
                  position:absolute;
@@ -25,68 +23,57 @@
                  top: 25%;
                  transform: translate(-50%, -50%);
                  left:36%;
-                 width:28%;
-                 }
+                 width:28%;}
 
                  .direita{
                  position:absolute;
                  top: 25%;
                  right:10%;
-                 transform: translate(-50%, -50%);
-                 }
+                 transform: translate(-50%, -50%);}
 
                  .esquerda{
                 position:absolute;
                  top: 25%;
                  left:15%;
-                 transform: translate(-50%, -50%);
-                }
-                body{background-color: #f7f7f7;
-                }
-
-
+                 transform: translate(-50%, -50%);}
 
                 .direita-Produtos{
                  position:absolute;
                  top: 50%;
                  right:77%;
-                 transform: translate(-50%, -50%);
-                 }
+                 transform: translate(-50%, -50%);}
 
                  .direita-Sobre{
                   position:absolute;
                  top: 50%;
                  right:68%;
-                 transform: translate(-50%, -50%);
-                 }
+                 transform: translate(-50%, -50%);}
 
                  .direita-Executivo{
                   position:absolute;
                  top: 50%;
                  right:60%;
-                 transform: translate(-50%, -50%);
-                 }
-                 .navbar-custom {
-                background-color: #EAD9C0;
-                   } 
+                 transform: translate(-50%, -50%);}
 
-                   .button-custom {
-                  color: #E8D1BC;
-                  border: 2px solid #FFDDBB
-                  } 
+        .caixa-branca{
+            background-color: #FFF;
+            padding: 1.3rem;
+        }  
+        
+        .caixa-branca2{
+            background-color: #FFF;
+            padding: 0.75rem;
+        }   
 
-                  .nav-item:link, .nav-item:visited, .nav-item:hover, .nav-item:active {
-    color: #000000; 
-    text-decoration: none;  
-}
+        .navbar-custom {background-color: #EAD9C0;} 
+        .jumbotron-custom{background-color:  #F4EDE5;}
 
-                       .jumbotron-custom{
-                        background-color: #brown;
-                       }
-                       body{background-color: #f7f7f7}
-                       
-                       
-                
+        .nav-item:link, .nav-item:visited, .nav-item:hover, .nav-item:active {color: #000000;text-decoration: none;  }
+
+        .button-custom {color: #E8D1BC;border: 2px solid #FFDDBB} 
+
+        body{background-color: #FAEACB;}
+
     </style>
 </head>
 <body>
@@ -118,15 +105,21 @@
 </nav>
 </div>
 
-<div class="jumbotron jumbotron-fluid jumbotron-custom "style="height: 50px;"><h1 class="centrado baixo"style="top: 115px; left: 650px; bottom: 500px">Trabalhe conosco</h1></div>
-<div class="embed-responsive embed-responsive-16by9 centrado2">  
-<video autoplay muted source src="videos/VideoPadariaI.mp4" style="width: 700px; height : 400px;top: 6px;";></video>
+<div class="jumbotron jumbotron-fluid jumbotron-custom "style="height: 50px;"><h1 class="centrado baixo"style="top: 115px; left: 650px; bottom: 500px; padding:1.2rem">Trabalhe conosco</h1></div>
 </div>
 
- <img src="IBAGENS/" alt="">
+<div>  
+<img class="img-fluid caixa-branca2"src="IBAGENS/TrabalharC.PNG" type="IMG" style="position: absolute; right: 43px; top: 650px; width: 902px; height: 405px;">
+</div>
 
+<div > 
+<img class="img-fluid caixa-branca2"src="IBAGENS/t2.PNG" type="IMG" style="position: absolute; right: 43px; top: 255px; width: 902px; height: 370px;">
+</div>
+
+
+ 
 <div class="container-fluid baixo esquerda"style="color:black margin: 10px; top:40%">
-        <form action="http://localhost:8080/FormularioEnviado.php" method="post" class="row row-cols-sm-auto g-3 align-items-center">    
+        <form action="http://localhost:8080/FormularioEnviado.php" method="post" class="row row-cols-sm-auto g-3 align-items-center caixa-branca">    
 
             <div style="width: 1000px">
                 <label for="nome" class="control-label">Nome:</label>

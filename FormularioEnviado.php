@@ -2,6 +2,10 @@
 <html lang="pt-br">
 
 <head>
+<style>
+
+body {background-color: #FAEACB;}
+</style>
 
 </head>
 
