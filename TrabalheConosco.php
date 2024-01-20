@@ -120,8 +120,10 @@
 
 <div class="jumbotron jumbotron-fluid jumbotron-custom "style="height: 50px;"><h1 class="centrado baixo"style="top: 115px; left: 650px; bottom: 500px">Trabalhe conosco</h1></div>
 <div class="embed-responsive embed-responsive-16by9 centrado2">  
-  <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3454.244746646044!2d-51.1993115!3d-29.1791183!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951ea34b5f5003a1%3A0x9a3cd7e8bbb5d7a4!2sTrigo&#39;s+Padaria+e+Confeitaria!5e0!3m2!1spt-BR!2sbr!4v1648073945816!5m2!1spt-BR!2sbr"  style="border:0; width:700px; height:700px;"></iframe>
+<video autoplay muted source src="videos/VideoPadariaI.mp4" style="width: 700px; height : 400px;top: 6px;";></video>
 </div>
+
+ <img src="IBAGENS/" alt="">
 
 <div class="container-fluid baixo esquerda"style="color:black margin: 10px; top:40%">
         <form action="http://localhost:8080/FormularioEnviado.php" method="post" class="row row-cols-sm-auto g-3 align-items-center">    
