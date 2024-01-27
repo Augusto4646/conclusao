@@ -126,7 +126,7 @@
 </div>
 
 <div class="w-25 p-4 Div-Logo" style="top:45%; left: 675px">
-   <img src="IBAGENS/Logo4.PNG" class="img-fluid" style="width:140px;" alt="Pagina-inicial">
+   <img src="IBAGENS/Logo4.PNG" class="img-fluid" style="width:141px;" alt="Pagina-inicial">
    <p class="lead Dimensionamento-BoasVindas" style="color: #FFFFFF; font-size: 35px; top:85%; bottom: 60px; left: 120px;">Bem vindo!</p>
  </div>
 

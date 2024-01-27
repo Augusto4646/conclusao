@@ -1,0 +1,37 @@
+
+
+CREATE TABLE produtos (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(255) NOT NULL,
+    descricao TEXT,
+    imagem VARCHAR(255),
+    preco DECIMAL(10, 2)
+);
+
+
+CREATE TABLE PaginaInicial(
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(255) NOT NULL,
+    descricao TEXT,
+    imagem VARCHAR(255)
+);
+
+INSERT INTO paginainicial (nome, descricao, imagem) VALUES
+('Melhor padaria de caxias do sul!', 'Bem-vindos à Padaria Tronco e Raiz, onde cada grão de farinha conta uma história e cada mordida é uma experiência inesquecível. Fundada com a paixão pela arte milenar da panificação, nossa padaria se destaca pela autenticidade e qualidade insuperável. Aqui, os sabores tradicionais encontram a inovação, resultando em uma variedade impressionante de pães, doces e lanches preparados diariamente. Nossos confeiteiros e padeiros são artesãos da culinária, dedicando-se a combinar técnicas consagradas pelo tempo com toques contemporâneos que deliciam o paladar. Desde o amanhecer, quando o aroma do pão fresco permeia o ar até o entardecer, com as vitrines repletas de confeitarias que são um festim para os olhos, a Padaria Tronco e Raiz é um ponto de encontro para todos aqueles que valorizam o prazer de comer bem. Convidamos você a começar seu dia conosco, desfrutar de uma pausa saborosa em sua rotina ou levar para casa delícias que tornarão qualquer momento especial. Venha fazer parte da nossa história e descubra por que somos mais do que uma padaria: somos uma família que compartilha o amor pelo que faz.', 'lanches.PNG'),
+('Trabalhe Conosco!', 'Venha trabalhar na nossa padaria! Aqui você receberá, além de uma compensação alta comparada com o resto da cidade, também toneladas de conhecimento sobre confeitaria, salgados, lanches e culinária tradicional! Em nosso ambiente colaborativo, você terá a chance de aprimorar suas habilidades sob a orientação de mestres padeiros e confeiteiros com anos de experiência. Você será imerso em uma cultura que valoriza a arte da panificação e a inovação, enquanto mantém as tradições que nos tornaram um marco na comunidade. Oferecemos oportunidades de crescimento profissional, workshops de aperfeiçoamento e a possibilidade de trabalhar com equipamentos de ponta. Na nossa padaria, acreditamos que cada membro da equipe é essencial para criar produtos que encantem e satisfaçam nossos clientes. Junte-se a nós e seja parte de uma história de sucesso, onde sua paixão pela culinária se transformará em criações memoráveis que alegram o dia a dia de quem prova nossas delícias!', 'TrabalheConoscoIMG.PNG'),
+('Sobre Nossa Padaria!', 'Desde o início, a Padaria Tronco e Raiz foi mais do que um simples estabelecimento de panificação. Fundada em 1954, na charmosa cidade de Caxias Do Sul, ela surgiu como um modesto empreendimento familiar. Nossa trajetória se iniciou com a aspiração de criar um ambiente onde cada pão, doce e prato refletisse nossa devoção à excelência no artesanato culinário. Os primeiros pães assados por Dona Emília, em seu forno a lenha, eram feitos com uma mistura especial de farinhas selecionadas e um ingrediente secreto: uma generosa dose de carinho, que ela insistia ser essencial em cada receita. Com o passar do tempo, a Padaria Tronco e Raiz expandiu seu repertório para incluir uma ampla variedade de pães especiais, bolos artisticamente decorados, tortas frescas e uma seleção de sanduíches gourmet confeccionados com os melhores ingredientes.', 'lanche.png'),
+('Nosso serviço executivo!', 'Na Padaria Trigo & Raiz, nosso serviço executivo é uma solução personalizada e eficiente destinada a atender as demandas de clientes corporativos e eventos especiais que exigem um fornecimento maior e mais complexo de nossas delícias artesanais. Com um atendimento diferenciado que entende as necessidades de cada ocasião, oferecemos desde a seleção mais refinada de pães, bolos e quitutes até opções de lanches e refeições completas, todos preparados com a mesma dedicação e qualidade que nos tornaram renomados. Empresas que buscam oferecer um toque de sofisticação e sabor em reuniões, coffee breaks e eventos corporativos encontram no nosso serviço executivo a garantia de produtos frescos e saborosos, entregues com pontualidade e apresentação impecável, enquanto organizadores de eventos contam com a nossa flexibilidade e capacidade de atender pedidos personalizados em volume, garantindo que cada participante desfrute de uma experiência gastronômica única que eleva o padrão do evento. Focado na conveniência, excelência e satisfação, o serviço executivo da Trigo & Raiz transcende o conceito de padaria, posicionando-se como parceiro estratégico para aqueles que desejam impressionar e proporcionar momentos memoráveis através de uma culinária artesanal de alta qualidade.', 'ExecutivoE.png'),
+('Nossos produtos!', 'Na Padaria Trigo & Raiz, todos os nossos produtos são de alta qualidade e possuem grande variedade. Possuímos desde os clássicos salgados, como empanada e coxinha brasileira, até tortas mais elaboradas com diversos componentes, tais como: torta de morango com chocolate, brigadeiros e beijinhos altamente recheados e com granulado, torta de banana com leite condensado e cobertura de chocolate, sanduíche natural com tomate, alface, picles, duas fatias de pão natural e presunto, diversos sabores de sorvete artesanal feitos diretamente pela padaria, como limão, chocolate, baunilha e cereja, torta de beijinho altamente recheada com chocolate branco no seu interior, lados e topo, torta de bolacha com chocolate branco e preto, bolachas em seus lados e topo e raspas de chocolate também no topo, e a torta de morango, que é a mais personalizada da padaria, contém chocolate branco e preto, morangos, cobertura, raspas de doce e tamanho maior que o normal, com 2 metros de comprimento.', 'Produtos (2).png');
+
+
+INSERT INTO produtos (nome, descricao, imagem, preco) VALUES
+('Torta de Banana', 'Torta feita de banana com leite condensado e chocolate', 'TortaBanana (2).PNG', 29.90),
+('Torta de Morango', 'Torta feita de Morango com leite condensado e chocolate', 'TortaMorango.PNG', 29.90),
+('Coxinha de Frango', 'Uma coxinha de frango tradicionalmente brasileira com os seus componentes clássicos', 'CoxinhaFrango.PNG', 29.90),
+('Torta de bolacha', 'Torta feita de bolacha e chocolate branco além de sua cobertura de raspas de chocolate', 'TortaBolacha.PNG', 29.90),
+('EMPANADA DE FRANGO', 'Empanada de Frango clássica brasileira feito com os componentes clássicos', 'EmpanadaFrango.PNG', 29.90),
+('Brigadeiro', 'Tradicional doce brasileiro feito com chocolate e coberto com granulado', 'Brigadeiro.PNG', 29.90),
+('Branquinho', 'Branquinho brasileiro feito com chocolate branco e coberto com granulado', 'Branquinho.PNG', 29.90),
+('Torta de Branquinho', 'Torta de branquinho brasileiro feito com chocolate branco e coberto com granulado', 'TORTABRANQUINHO.PNG', 29.90),
+('Torta de Nos', 'Torta de nos altamente costumizável', 'TortaNOS.PNG', 29.90),
+('Sanduiche Natural', 'Sanduiche Natural', 'Sanduiche.PNG', 29.90);

@@ -2,7 +2,7 @@
 <html>
 <head>
 
-    <title>Formulário de Trabalhe Conosco</title>
+    <title>Trabalhe Conosco</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <style>
             .centrado{
@@ -10,7 +10,9 @@
                  top: 5%;
                  left:48%;
                  transform: translate(-50%, -50%);}
-
+                 .centrado4 {
+            text-align: center;  
+        }
               .centrado2{
                  position:absolute;
                  top: 105%;
@@ -57,13 +59,20 @@
 
         .caixa-branca{
             background-color: #FFF;
-            padding: 1.3rem;
+            padding: 1rem;
         }  
         
         .caixa-branca2{
             background-color: #FFF;
             padding: 0.75rem;
         }   
+
+        .direita-Home{
+                  position:absolute;
+                 top: 50%;
+                 right:47%;
+                 transform: translate(-50%, -50%);
+                 }
 
         .navbar-custom {background-color: #EAD9C0;} 
         .jumbotron-custom{background-color:  #F4EDE5;}
@@ -87,33 +96,39 @@
   </button>
 
   <div class="navbar-nav mr-auto">
-  <a class="btn btn-outline navbar-custom nav-item " style="width:90px"href="http://localhost:8080/TrabalheConosco.php" role="button">Trabalhe conosco</a>
+  <a class="btn btn-outline navbar-custom nav-item" style="width:90px"href="http://localhost:8080" role="button">Pagina Inicial</a>
   </div>
 
   <div class="navbar-nav mr-auto">
-  <a class="btn btn-outline navbar-custom nav-item direita-Produtos" href="http://localhost:8080/Produtos.php" role="button">Produtos</a>
+  <a class="btn btn-outline direita-Produtos navbar-custom nav-item" href="http://localhost:8080/Produtos.php" role="button">Produtos</a>
   </div>
 
   <div class="navbar-nav mr-auto">
-  <a class="btn btn-outline navbar-custom nav-item direita-Sobre" href="http://localhost:8080/Sobre.php" role="button">Sobre nos</a>
+  <a class="btn btn-outline direita-Sobre nav-item" href="http://localhost:8080/Sobre.php" role="button">Sobre nos</a>
   </div>
 
   <div class="navbar-nav mr-auto">
-  <a class="btn btn-outline  direita-Executivo" href="http://localhost:8080/Executivo.php" role="button">Executivo</a>
+  <a class="btn btn-outline direita-Executivo nav-item" href="http://localhost:8080/Executivo.php" role="button">Executivo</a>
   </div>
 
+  <div class="navbar-nav mr-auto">
+  <a class="btn btn-outline direita-Home nav-item" href="http://localhost:8080/TrabalheConosco.php" role="button">Trabalhe conosco</a>
+  </div>
 </nav>
 </div>
 
-<div class="jumbotron jumbotron-fluid jumbotron-custom "style="height: 50px;"><h1 class="centrado baixo"style="top: 115px; left: 650px; bottom: 500px; padding:1.2rem">Trabalhe conosco</h1></div>
-</div>
+<div class="jumbotron jumbotron-fluid jumbotron-custom"style="height: 150px">
+        <h1 class="centrado4">Trabalhe Conosco</h1>
+    </div>
 
 <div>  
-<img class="img-fluid caixa-branca2"src="IBAGENS/TrabalharC.PNG" type="IMG" style="position: absolute; right: 43px; top: 650px; width: 902px; height: 405px;">
+<img class="img-fluid caixa-branca2"src="IBAGENS/TBC (2).PNG" type="IMG" style="position: absolute; right: -15px; top: 610px; width: 902px; height: 412px;margin-bottom:  5px;">
 </div>
 
+<br>
+
 <div > 
-<img class="img-fluid caixa-branca2"src="IBAGENS/t2.PNG" type="IMG" style="position: absolute; right: 43px; top: 255px; width: 902px; height: 370px;">
+<img class="img-fluid caixa-branca2"src="IBAGENS/TBC (1).PNG" type="IMG" style="position: absolute; right: -15px;top:40%; width: 902px; height: 370px;">
 </div>
 
 
@@ -182,4 +197,9 @@
          </form>
     </div>
 
+    <div class="jumbotron jumbotron-fluid jumbotron-custom "style="position:absolute;top: 1040px;width: 1349px"><h2 style="position:absolute; left: 485px;top: 50px;">Porque nos escolher</h2>
+    <p class="caixa-branca"style="position:absolute;width: 1349px;top:150px; margin: -0px;">Escolher trabalhar na Padaria Tronco e Raiz representa uma oportunidade única de integrar uma equipe que valoriza não apenas a qualidade de seus produtos, mas também o desenvolvimento profissional e pessoal de seus colaboradores. Em nosso ambiente de trabalho, cultivamos uma cultura de respeito, colaboração e inovação, onde cada funcionário é encorajado a trazer novas ideias e perspectivas, contribuindo para o crescimento contínuo da empresa e a satisfação dos clientes. Oferecemos treinamento contínuo, possibilitando o desenvolvimento de habilidades específicas na arte da panificação e confeitaria, bem como competências gerenciais e de atendimento ao cliente, preparando nossa equipe para enfrentar os desafios do mercado com confiança e competência. Além disso, acreditamos firmemente no equilíbrio entre vida profissional e pessoal, oferecendo horários flexíveis e um ambiente de trabalho positivo e acolhedor. Trabalhar na Padaria Tronco e Raiz significa fazer parte de uma família que se dedica não apenas a produzir alimentos de alta qualidade, mas também a criar um espaço onde clientes e colaboradores se sintam em casa, promovendo um senso de comunidade e pertencimento que é raro no setor. Com a nossa abordagem inovadora e compromisso com a excelência, somos não apenas uma escolha de trabalho, mas um caminho para um futuro profissional promissor e gratificante.</p>
+    </div>
+
 </body>
+</html>
